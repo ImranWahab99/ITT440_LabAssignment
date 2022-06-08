@@ -13,12 +13,20 @@ int main(void)
 
   if (signal(SIGINT, sigint_handler) == SIG_ERR){
      perror("signal");
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> ba850d597e4b0ea08e0dd83b8ce3d12536f927a6
   }
 
   if (signal(SIGTSTP, sigtstp_handler) == SIG_ERR){
      perror("signal");
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> ba850d597e4b0ea08e0dd83b8ce3d12536f927a6
   }
 
   if (signal(SIGQUIT, sigquit_handler) == SIG_ERR){
