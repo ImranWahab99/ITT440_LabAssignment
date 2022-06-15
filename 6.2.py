@@ -38,5 +38,6 @@ if __name__ == '__main__':
                 print(e)
                 sys.exit(1)
     finally:
+           s.close()
 
 
